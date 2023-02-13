@@ -137,8 +137,8 @@ class IntegrarPagcompleto
   private static function enviar_api($EXTERNAL_ORDER_ID, $AMOUNT, $CARD_NUMBER, $CARD_CVV, $CARD_EXPIRATION_DATE, $CARD_HOLDER_NAME, $EXTERNAL_ID, $NAME, $TYPE_CUSTOMER, $EMAIL, $TYPE_DOCUMENTS, $NUMBER, $BIRTHDAY)
   {
     //https://api11.ecompleto.com.br/exams/processTransaction?accessToken=
-    $API_PATH = 'https://api11.ecompleto.com.br/exams/processTransaction';
-    $API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZUlkIjoiNCIsInVzZXJJZCI6IjkwNDAiLCJpYXQiOjE2NzUwODA5MzUsImV4cCI6MTY3NTczODc5OX0.I-CaKCVgrZq3NWIdOgutxuT4e2Kiy1l0eokTyOeRPxw';
+    $API_PATH = '';
+    $API_KEY = '';
     
     $url = "$API_PATH";
 
